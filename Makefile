@@ -1,4 +1,4 @@
-NAME=openapi-assembler
+NAME=openapi-assembly
 REPO=github.com/mfenderov/${NAME}
 
 dependencies:
@@ -12,3 +12,5 @@ build:
 	@go build -o build/ -v ./...
 install:
 	@go install ${REPO}
+release:
+	@GOPROXY=proxy.golang.org go list -m ${REPO}@${GITHUB_REF_NAME}
