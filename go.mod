@@ -3,7 +3,7 @@ module github.com/mfenderov/openapi-assembly
 go 1.23
 
 require (
-	github.com/bdpiprava/scalar-go v0.4.0
+	github.com/bdpiprava/scalar-go v0.10.0
 	github.com/stretchr/testify v1.9.0
 )
 
