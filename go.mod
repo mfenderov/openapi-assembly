@@ -4,7 +4,7 @@ go 1.23
 
 require (
 	github.com/bdpiprava/scalar-go v0.12.0
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 )
 
 require (
